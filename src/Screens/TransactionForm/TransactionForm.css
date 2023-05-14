@@ -1,0 +1,65 @@
+.grid-transaction {
+  background-color: var(--main-color);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+#trans-value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--main-color);
+  padding: 2px;
+  border-radius: 5px;
+  outline: 0;
+  padding: 3px;
+}
+
+#trans-mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--main-color);
+  padding: 2px;
+  border-radius: 5px;
+  outline: 0;
+  padding: 3px;
+}
+
+.input-label {
+  font-size: 8pt;
+}
+
+.transaction-form-img {
+  width: 100px;
+}
+
+.submit-transaction {
+  background-color: var(--button-color);
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.submit-transaction:hover {
+  background-color: var(--button-color-hover);
+}

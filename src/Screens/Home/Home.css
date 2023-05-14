@@ -1,0 +1,76 @@
+.home-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-color);
+  height: 100vh;
+}
+
+.home-grid-sections {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  gap: 15px;
+  padding: 15px;
+  width: 70%;
+  height: 350px;
+  border-radius: 15px;
+}
+
+.home-left-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 70px;
+  flex: 1;
+}
+
+.home-left-side div {
+  display: flex;
+  flex-direction: column;
+}
+
+.signOut-btn {
+  padding: 5px;
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.create-transaction {
+  transition: 0.5s;
+  font-size: 10pt;
+}
+
+.home-right-side {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 1;
+}
+
+.transactions-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0px 0px 5px 1px rgb(165, 165, 165);
+  padding: 5px;
+  height: 100%;
+  max-height: 100%;
+  overflow-y: scroll;
+}
+
+.transactions-grid::-webkit-scrollbar {
+  width: 5px;
+  opacity: 0;
+}
+
+.transactions-grid::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background-color: var(--main-color);
+}

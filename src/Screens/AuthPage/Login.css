@@ -1,0 +1,120 @@
+.grid {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--main-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.body-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-color);
+  width: 50%;
+  border-radius: 30px;
+  padding: 15px;
+  gap: 15px;
+  height: 350px;
+}
+
+.grid-main-img {
+  width: 30%;
+}
+
+.grid-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  border-left: 1px solid rgba(0, 0, 0, 0.212);
+}
+
+.form-img {
+  width: 32%;
+}
+
+.mail-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--main-color);
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.input-icon {
+  width: 20px;
+}
+
+#mail {
+  border: none;
+  outline: 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.212);
+  padding: 3px;
+}
+
+.password-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--main-color);
+  padding: 2px;
+  border-radius: 5px;
+}
+
+#password {
+  border: none;
+  outline: 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.212);
+  padding: 3px;
+}
+
+.confirm-password-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--main-color);
+  padding: 2px;
+  border-radius: 5px;
+}
+
+#confirmpassword {
+  border: none;
+  outline: 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.212);
+  padding: 3px;
+}
+
+.input-btns {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.input-btn {
+  background-color: var(--button-color);
+  padding: 5px;
+  border: none;
+  width: 50%;
+  border-radius: 5px;
+  color: white;
+  transition: 0.5s;
+}
+
+.input-btn:hover {
+  background-color: var(--button-color-hover);
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.link-btn {
+  font-size: 7pt;
+  color: grey;
+}

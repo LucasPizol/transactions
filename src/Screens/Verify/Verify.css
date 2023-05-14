@@ -1,0 +1,24 @@
+.verify-div {
+  background-color: var(--main-color);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.verify-content {
+  padding: 15px;
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.verify-paragraph {
+  text-decoration: underline;
+  color: grey;
+}
+
+.verify-paragraph:hover {
+  color: rgb(192, 190, 190);
+  cursor: pointer;
+}
