@@ -12,8 +12,8 @@ Adicione seu firestore:
 ![image](https://github.com/LucasPizol/transactions/assets/131599316/b1e4b7a8-b99e-438c-89de-9fbe9dd0d534)
 
 (Utilize sempre o melhor servidor. Para nós do Brasil, o south america é o melhor)
-Utilize o modo de teste.
 
+Utilize o modo de teste.
 
 ![image](https://github.com/LucasPizol/transactions/assets/131599316/7e32ff5c-8b60-414d-b5c9-0ef43f13c342)
 
