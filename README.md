@@ -6,6 +6,8 @@ Selecione a opção "React" e aperte enter
 Selecione a opçaõ "JavaScript" e aperte enter
 digite cd "nome-do-seu-diretorio" e aperte enter
 digite npm install e aperte enter
+digite npm install react-router-dom e aperte enter
+digite npm install firebase e aperte enter
 
 Agora, após instalado delete todos os arquivos menos a pasta node_modules
 Jogue todos os arquivos deste repositório para sua pasta recém criada
