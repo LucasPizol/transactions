@@ -35,11 +35,6 @@ const Login = () => {
 
   return (
     <div className="grid">
-      <div className="body-group">
-        <img
-          className="grid-main-img"
-          src="https://clipartix.com/wp-content/uploads/2017/03/Welcome-back-clipart-dfiles.jpg"
-        />
         <form className="grid-form" onSubmit={(e) => authUser(e, fields)}>
           <img
             className="form-img"
@@ -88,7 +83,6 @@ const Login = () => {
             </Link>
           </div>
         </form>
-      </div>
       <Message />
       <Loading />
     </div>

@@ -4,11 +4,11 @@ import { userDocs } from "../../Screens/TransactionForm/TransactionForm";
 import "./Transactions.css";
 
 const Transactions = () => {
-  const transactionsArray = userDocs.transactions;
+  const transactionsArray = userDocs?.transactions;
 
   return (
     <>
-      {transactionsArray.map((data, index) => {
+      {transactionsArray?.map((data, index) => {
         if (data.fromEmail === auth.currentUser.email) {
           return (
             <div key={index} className="transaction sent">

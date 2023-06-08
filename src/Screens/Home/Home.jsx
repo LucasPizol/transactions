@@ -24,7 +24,7 @@ const Home = () => {
             <h1 className="home-title">Seja bem vindo!</h1>
             <small>Email: {auth.currentUser.email}</small>
             <small className="user-balance">
-              Saldo: R$ {Number(userDocs.balance).toFixed(2)}
+              Saldo: R$ {Number(userDocs?.balance).toFixed(2)}
             </small>
           </div>
           <button className="signOut-btn" onClick={() => signOut()}>

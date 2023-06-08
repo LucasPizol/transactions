@@ -61,11 +61,6 @@ const Register = () => {
 
   return (
     <div className="grid">
-      <div className="body-group">
-        <img
-          className="grid-main-img"
-          src="https://png.pngtree.com/png-vector/20220710/ourmid/pngtree-colorful-register-now-vector-png-image-png-image_5831724.png"
-        />
         <form className="grid-form" onSubmit={(e) => registerUser(e, fields)}>
           <img
             className="form-img"
@@ -135,7 +130,6 @@ const Register = () => {
             </Link>
           </div>
         </form>
-      </div>
 
       <Message />
       <Loading />
